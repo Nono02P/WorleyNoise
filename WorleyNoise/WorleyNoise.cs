@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace WorleyNoise
@@ -61,7 +60,7 @@ namespace WorleyNoise
             }
             IOrderedEnumerable<float> ordered = distances.OrderBy(d => d);
 
-            return ordered.ToArray()[pointIndex % NbOfPoints];
+            return ordered.ElementAt(pointIndex % NbOfPoints);
         }
     }
 }
