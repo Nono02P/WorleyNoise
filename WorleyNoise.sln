@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorleyNoise", "WorleyNoise\WorleyNoise.csproj", "{C25122AD-53FB-42AB-A87B-2D093B73E3AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C25122AD-53FB-42AB-A87B-2D093B73E3AF}.Debug|x86.ActiveCfg = Debug|x86
+		{C25122AD-53FB-42AB-A87B-2D093B73E3AF}.Debug|x86.Build.0 = Debug|x86
+		{C25122AD-53FB-42AB-A87B-2D093B73E3AF}.Release|x86.ActiveCfg = Release|x86
+		{C25122AD-53FB-42AB-A87B-2D093B73E3AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F212DCAC-E058-4629-AF66-26C0E90FD6CC}
+	EndGlobalSection
+EndGlobal
